@@ -1,4 +1,6 @@
-sources:
+sources:- name: Setup Node.js environment
+  uses: actions/setup-node@v4.4.0
+
   npm: true
 
 allowed:
